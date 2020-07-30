@@ -66,7 +66,15 @@ const record = [
   { year: "1960", result: "N/A"}
 ]
 
-function superbowlWin(record){
-const obj = record.find( e => e.result === 'W')
+]
+function superbowlWin(x) {
+  let y =x.find(f => {return f.result === "W"})
+  if(y){
+    return y.year
+  }
+  else{
+    return undefined
+  }
 }
-return obj;
+
+console.log(superbowlWin(record))
