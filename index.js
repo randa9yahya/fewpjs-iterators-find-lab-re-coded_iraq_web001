@@ -1,9 +1,3 @@
-const testVar = {}
-
-function testFunc() {
-  return "hi"
-}
-
 const record = [
   { year: "2018", result: "N/A"},
   { year: "2017", result: "N/A"},
@@ -64,8 +58,6 @@ const record = [
   { year: "1962", result: "N/A"},
   { year: "1961", result: "N/A"},
   { year: "1960", result: "N/A"}
-]
-
 ]
 function superbowlWin(x) {
   let y =x.find(f => {return f.result === "W"})
